@@ -35,6 +35,8 @@ setup(
             "pygments",
             "sphinx_testing",
             "bs4",
+            "sphinx-gallery",
+            "sphinx_copybuttion"
         ],
         "code_style": ["pre-commit==2.6"],
     },
