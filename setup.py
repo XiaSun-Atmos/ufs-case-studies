@@ -25,7 +25,7 @@ setup(
     url="https://github.com/executablebooks/sphinx-tabs",
     license="MIT",
     python_requires="~=3.6",
-    install_requires=["sphinx>=2,<3", "pygments"],
+    install_requires=["sphinx>=2,<4", "pygments"],
     extras_require={
         "testing": [
             "coverage",
@@ -35,8 +35,6 @@ setup(
             "pygments",
             "sphinx_testing",
             "bs4",
-            "sphinx-gallery",
-            "sphinx_copybuttion"
         ],
         "code_style": ["pre-commit==2.6"],
     },
