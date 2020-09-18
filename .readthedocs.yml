@@ -1,5 +1,10 @@
 version: 2
 
+python:
+  version: 3
+  install:
+      - method: pip
+        path: .
 sphinx:
   version: 2.4.0
   builder: html
