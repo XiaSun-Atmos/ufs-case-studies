@@ -4,5 +4,10 @@ python:
   version: 3
   install:
       - requirements: docs/requirements.txt
+      - method: pip
+        path: .
 
+sphinx:
+  builder: html
+  fail_on_warning: true
 
