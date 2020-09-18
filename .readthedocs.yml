@@ -1,5 +1,6 @@
 version: 2
 
 sphinx:
+  version: 2
   builder: html
   fail_on_warning: true
