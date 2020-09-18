@@ -3,13 +3,11 @@ version: 2
 python:
   version: 3
   install:
+      - requirements: docs/requirements.txt
       - method: pip
         path: .
 sphinx:
   builder: html
-  fail_on_warning: true
-
-sphinx_gallery:
   fail_on_warning: true
 
 
