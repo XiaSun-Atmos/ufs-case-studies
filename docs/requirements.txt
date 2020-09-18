@@ -1,3 +1,5 @@
+version: 2
+
 sphinx-gallery
 sphinx_copybutton
 sphinx-tabs
