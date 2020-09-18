@@ -6,6 +6,5 @@ python:
       - method: pip
         path: .
 sphinx:
-  version: 2.4.0
   builder: html
   fail_on_warning: true
